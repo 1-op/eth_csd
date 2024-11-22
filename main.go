@@ -487,7 +487,7 @@ func TestAcc(db *myethdb.LDBDatabase) {
 
 func main() {
 	//path := "E:\\eth\\execution\\db\\geth\\chaindata"
-	path := "E:\\DB\\db\\10G"
+	path := "E:\\DB\\db\\80G"
 	db, err := myethdb.NewLDBDatabase(path, 16, 128)
 	if err != nil {
 		return
